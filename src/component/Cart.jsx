@@ -7,11 +7,11 @@
     const state = useSelector((state)=> state.addItem)
     const dispatch = useDispatch()
 
-    const cartItem = (cartItem) => {
+    const cartItems = (cartItem) => {
         return(
             <div className="px-4 my-5 bg-light rounded-3" key={cartItem.id}>
                 <div className="container py-4">
-                    <button className="btn-close float-end" aria-aria-label='close'></button>
+                    <button className="btn-close float-end" aria-label='close'></button>
                     <div className="row justify-content-center">
                         <div className="col-md-4">
                             <img src={cartItem.img} alt={cartItem.title} height="200px"
@@ -32,4 +32,4 @@
      </div>
    )
  }
-  export default Cart
+  export default Cart;
