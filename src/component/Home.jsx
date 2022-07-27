@@ -12,7 +12,7 @@ const Home = () => {
                         <p className="card-text lead fs-2">
                             CHECK OUT ALL THE TRENDS
                         </p>
-                    </div>
+                    </div> 
                 </div>
             </div>
             <Products/>
